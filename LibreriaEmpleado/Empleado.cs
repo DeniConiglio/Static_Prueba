@@ -8,11 +8,16 @@ namespace LibreriaEmpleado
 {
     public class Empleado
     {
+        //public Empleado() { }
         public Empleado(string nombre, string apellido, int id)
         {
             Id = id;
             Nombre=nombre;
             Apellido=apellido;
+        }
+
+        public Empleado()
+        {
         }
 
         public string Nombre { get; set; }
